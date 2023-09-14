@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script&family=Foldit:wght@300&family=Indie+Flower&family=Schibsted+Grotesk&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+    padding: 0;
+    
+}
+#logo img{
+    filter: invert(1);
+    color: white;
+     /* margin-top: -6px;  */
+    display: flex;
+    height: 40px;
+    /* margin-left: -280px; */
+    
+
+    
+
+    
+
+}
+
+#navbar{
+   background-color:rgb(144 144 144);
+        padding: 0px 14px;
+
+}
+#navbar ul{
+    display: flex;
+    padding: 6px 2px;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    
+    
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 4px 25px;
+    color:white;
+    font-size: 18px;
+}
+#introSection{
+    /* padding-bottom: 100px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: rgb(144 144 144);
+    background:center / cover  no-repeat url("../static/dbg.jpg"); 
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;    
+}
+#navbar li a:hover{
+    color: black;
+
+
+}
+#introSection div.small{
+    font-size: 25px;
+}
+
+#SponsorsSection{
+    height: 300px;
+    background-color:  rgb(144 144 144);
+    
+    color: black;
+} 
+#missionSection{
+    height: 300px;
+    background-color: rgb(144 144 144);
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+    
+    background-color:rgb(144 144 144);
+    text-align: center;
+    
+    padding-top: 20px;
+    
+    font-size: 35px;
+    color: black;
+    opacity: 0.8;
+    
+}
+.card{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: inline-flex;
+    flex-direction: row;
+    transition-property: background-color;
+    width: 21%;
+    margin: 24px;
+    height: 40%;
+    background-color: blueviolet;
+    
+}
+div.card h5{
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    cursor: pointer;
+    color: chartreuse;
+    background-color: darkgray;
+}
+
+
+#SponsorsSection h2{
+    text-align: center;
+    
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+
+    
+}
+#sponsors{
+    height: 140px;
+    margin: 8px 245px;
+    /* max-width: 1000px; */
+}
+.spImage{
+    height: 80%;
+    margin: 45px;
+}
+
+#footer{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Pacifico', cursive;
+}

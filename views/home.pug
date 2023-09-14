@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts
+  script(src="/static/index.js")
+
+
+block style 
+    style
+      include ../static/style.css
+block content 
+    
+    section#introSection 
+      div Welcome To Yash's Dance Acadmey.
+      div.small Eat Sleep Dance Repeat..
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h5 Learn And Grow
+            
+      
+        div.card
+            h5 Opportunities
+        div.card
+            h5 Get Highlighted
+          
+      
+    section#SponsorsSection 
+      h2 Our Sponsors 
+      div#sponsors
+         img(src='../static/apple logo.png', alt="sponsor image ", class="spImage")
+         img(src='../static/wolks logo.png', alt="sponsor image ", class="spImage")
+         img(src='../static/micro logo.png', alt="sponsor image ", class="spImage")
+         img(src='../static/instagram.png', alt="sponsor image ", class="spImage")
